@@ -50,6 +50,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
+.current {
+  color: var(--accent-color);
+}
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
@@ -75,9 +78,11 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--second-title-color);
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -85,17 +90,19 @@ body {
   color: var(--second-title-color);
 }
 /*------------SPECIAL----------*/
-.special-item {
+.special-item-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--main-title-color);
 }
 .special-text {
   font-size: 14px;
   line-height: 1.74;
   letter-spacing: 0.03em;
+  text-transform: none;
   color: var(--main-text-color);
 }
 /*---------WORK--------*/
@@ -140,12 +147,14 @@ body {
   color: var(--footer-text-color);
 }
 .address-map-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
 }
 .address-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
